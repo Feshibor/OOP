@@ -5,13 +5,6 @@
 using namespace std;
 
 
-int main() {
-    int x;
-    cin >> x;
-    intToTurkish(x);
-    return 0;
-}
-
 int intToTurkish(int x) {
 
     if (x == 0) {
@@ -63,4 +56,5 @@ int intToTurkish(int x) {
         cout <<"dokuz";
     } 
     return 0;
+
 }
